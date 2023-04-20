@@ -23,6 +23,7 @@ requirements:
     - asteval
     - astunparse
     - numpy
+    - pint
     - python >=3.6
     - stats_arrays
 
