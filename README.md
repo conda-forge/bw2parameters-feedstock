@@ -1,11 +1,11 @@
-About bw2parameters
-===================
+About bw2parameters-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bw2parameters-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/brightway-lca/brightway2-parameters
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bw2parameters-feedstock/blob/main/LICENSE.txt)
 
 Summary: Library for storing, validating, and calculating with parameters
 

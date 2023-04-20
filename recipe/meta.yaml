@@ -1,5 +1,5 @@
 {% set name = "bw2parameters" %}
-{% set version = "0.7" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f9d6cd45488762a755ede5c11754d5acf790f1e8ab592a86babd02f91c08a87a
+  sha256: 37d2e242334c7c688444296048257616e4b03580929c18faf6c2286e122b2b79
 
 build:
   noarch: python
@@ -23,6 +23,7 @@ requirements:
     - asteval
     - astunparse
     - numpy
+    - pint
     - python >=3.6
     - stats_arrays
 
